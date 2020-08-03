@@ -1,4 +1,4 @@
-package lesson1.littlesum;
+package basic_class_01.smallSum;
 
 public class Solution {
 

@@ -1,4 +1,4 @@
-package lesson1.sort;
+package basic_class_01.sort;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -8,14 +8,14 @@ public class Handler implements InvocationHandler {
     private Object object;
     private int testTime;
     private int size;
-    private int value;
+    private int maxValue;
     private Comparator comparator;
 
     public Handler(Object object, int testTime, int size, int value) {
         this.object = object;
         this.testTime = testTime;
         this.size = size;
-        this.value = value;
+        this.maxValue = value;
     }
 
     @Override
@@ -24,7 +24,7 @@ public class Handler implements InvocationHandler {
         long startTime = System.currentTimeMillis();
         for (int i = 0; i < testTime; i++) {
             System.out.print("\r" + (i+1.0)/ testTime * 100 + "%");
-            int[] arr1 = comparator.generateRandomArray(size, value);
+            int[] arr1 = comparator.generateRandomArray(size, maxValue);
             int[] arr2 = arr1.clone();
             int[] arr3 = arr1.clone();
             comparator.rightMethod(arr2);

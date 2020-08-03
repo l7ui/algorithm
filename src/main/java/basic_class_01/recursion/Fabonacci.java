@@ -1,4 +1,4 @@
-package lesson1.recursion;
+package basic_class_01.recursion;
 
 public class Fabonacci {
     public static void main(String[] args) {

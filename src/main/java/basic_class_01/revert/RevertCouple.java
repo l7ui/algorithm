@@ -1,6 +1,6 @@
-package lesson1.revert;
+package basic_class_01.revert;
 
-import lesson1.littlesum.Solution;
+import basic_class_01.smallSum.Solution;
 
 import java.util.ArrayList;
 

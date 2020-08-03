@@ -1,4 +1,4 @@
-package lesson1.sort;
+package basic_class_01.sort;
 
 public interface SortInterface {
     /**
