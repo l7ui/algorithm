@@ -8,4 +8,6 @@ algorithm learning 2020 career
 
 [primary_3](./docs/primary_3.md)
 
+[primary_4](./docs/primary_4.md)
 
+[primary_5](./docs/primary_5.md)
