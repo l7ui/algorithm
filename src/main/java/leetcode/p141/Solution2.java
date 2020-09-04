@@ -7,14 +7,13 @@ public class Solution2 {
         if (head == null) {
             return false;
         }
-        ListNode slow = head;
-        ListNode fast = head.next;
+        ListNode slow = head, fast = head.next;
         while (slow != null && fast != null && fast.next != null) {
             if (slow == fast) {
                 return true;
             }
-            fast = fast.next.next;
             slow = slow.next;
+            fast = fast.next.next;
         }
         return false;
     }
