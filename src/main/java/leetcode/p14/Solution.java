@@ -1,5 +1,8 @@
 package leetcode.p14;
 
+/**
+ * 最长公共前缀
+ */
 public class Solution {
     public String longestCommonPrefix(String[] strs) {
         if (strs == null || strs.length == 0) {

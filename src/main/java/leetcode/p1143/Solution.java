@@ -1,5 +1,8 @@
 package leetcode.p1143;
 
+/**
+ * 最长公共子序列
+ */
 public class Solution {
     public int longestCommonSubsequence(String text1, String text2) {
         if (text1 == null || text2 == null) {

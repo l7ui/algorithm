@@ -1,5 +1,8 @@
 package leetcode.p31;
 
+/**
+ * 字典序的下一个全排列
+ */
 public class Solution {
     public void nextPermutation(int[] nums) {
         if (nums == null || nums.length == 0) {
@@ -13,7 +16,7 @@ public class Solution {
         }
         if (i >= 0) {
             int j = l - 1;
-            // 2.1 找到第一个稍大于 nums[i] 的数 nums[j]
+            // 2.1 从后向前找到第一个稍大于 nums[i] 的数 nums[j]
             while (j >= 0 && nums[j] <= nums[i]) {
                 j--;
             }

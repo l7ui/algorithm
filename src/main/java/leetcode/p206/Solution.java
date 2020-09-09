@@ -4,18 +4,16 @@ import leetcode.entity.ListNode;
 
 public class Solution {
     public ListNode reverseList(ListNode head) {
-        if (head == null) {
-            return null;
+        if (head == null || head.next == null) {
+            return head;
         }
         ListNode dummy = new ListNode(-1);
-        dummy.next = head;
-        ListNode cur = head.next;
-        head.next = null;
+        ListNode cur = head;
         while (cur != null) {
-            ListNode next = cur.next;
+            ListNode temp = cur.next;
             cur.next = dummy.next;
             dummy.next = cur;
-            cur = next;
+            cur = temp;
         }
         return dummy.next;
     }

@@ -3,6 +3,9 @@ package leetcode.p46;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 全排列
+ */
 public class Solution {
     private List<List<Integer>> res = new ArrayList<>();
 

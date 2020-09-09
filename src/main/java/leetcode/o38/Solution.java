@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 
+/**
+ * 字符串的全排列（去重）
+ */
 public class Solution {
     public String[] permutation(String s) {
         if (s == null || s.length() == 0) {

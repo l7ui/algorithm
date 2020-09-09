@@ -1,5 +1,8 @@
 package leetcode.o40;
 
+/**
+ * 返回数组的前K小的数
+ */
 public class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {
         if (k == arr.length) {

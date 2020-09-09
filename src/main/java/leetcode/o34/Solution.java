@@ -4,6 +4,9 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
+/**
+ * 找到二叉树中路径和为K的所有路径
+ */
 public class Solution {
     static class TreeNode {
         int val;

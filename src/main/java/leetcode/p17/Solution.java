@@ -5,6 +5,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * 回溯：全排列
+ */
 class Solution {
     public List<String> letterCombinations(String digits) {
         List<String> res = new ArrayList<>();

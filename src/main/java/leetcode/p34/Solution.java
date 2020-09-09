@@ -1,5 +1,8 @@
 package leetcode.p34;
 
+/**
+ * 二分查找排序数组中指定元素的左右索引位置
+ */
 public class Solution {
     public int[] searchRange(int[] nums, int target) {
         int[] res = new int[]{-1, -1};

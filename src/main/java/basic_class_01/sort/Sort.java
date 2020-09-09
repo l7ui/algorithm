@@ -177,6 +177,8 @@ public class Sort implements SortInterface {
             heapify(arr, 0, heapSize);
         }
     }
+
+    // 大数向上浮，构建大顶堆
     private void heapInsert(int[] arr, int index) {
         while (arr[index] > arr[(index - 1) / 2]) {
             swap(arr, index, (index - 1) / 2);
@@ -184,6 +186,7 @@ public class Sort implements SortInterface {
         }
     }
 
+    // 小数向下沉
     private void heapify(int[] arr, int index, int heapSize) {
         int left = index * 2 + 1;
         while (left < heapSize) {

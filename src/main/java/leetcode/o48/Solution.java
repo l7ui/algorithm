@@ -1,5 +1,8 @@
 package leetcode.o48;
 
+/**
+ * 字符串的最长非重复子串
+ */
 public class Solution {
     public int lengthOfLongestSubstring(String s) {
         if (s == null || s.length() == 0) {
