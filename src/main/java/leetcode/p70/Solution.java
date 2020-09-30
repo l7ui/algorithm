@@ -1,5 +1,8 @@
 package leetcode.p70;
 
+/**
+ * 爬楼梯
+ */
 public class Solution {
     public int climbStairs(int n) {
         if (n < 3) {

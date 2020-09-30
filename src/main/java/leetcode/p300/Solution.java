@@ -2,6 +2,9 @@ package leetcode.p300;
 
 import java.util.Arrays;
 
+/**
+ * 最长上升子序列
+ */
 public class Solution {
     public int lengthOfLIS(int[] nums) {
         if (nums == null || nums.length == 0) {

@@ -1,5 +1,8 @@
 package leetcode.p214;
 
+/**
+ * 最短回文字符串
+ */
 class Solution {
     public static void main(String[] args) {
         String s = "aacecaaa";
@@ -25,9 +28,9 @@ class Solution {
             sb.reverse();
             sb.append(s.substring(index));
         } else {
-            sb.append(s.substring(0, index));
+            sb.append(s, 0, index);
             sb.reverse();
-            sb.append(s.substring(index, index + max));
+            sb.append(s, index, index + max);
         }
         return sb.toString();
     }

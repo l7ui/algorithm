@@ -17,7 +17,10 @@ public class TreeRecurve {
         stack.add(root);
         while (!stack.isEmpty()) {
             root = stack.pop();
+            /*
+            处理逻辑
             System.out.println(root.val);
+            */
             if (root.right != null) {
                 stack.push(root.right);
             }
@@ -43,7 +46,10 @@ public class TreeRecurve {
                 root = root.left;
             } else {
                 root = stack.pop();
+                /*
+                处理逻辑
                 System.out.println(root.val);
+                */
                 root = root.right;
             }
         }
@@ -58,12 +64,12 @@ public class TreeRecurve {
         stack1.add(root);
         while (!stack1.isEmpty()) {
             TreeNode node = stack1.pop();
-            stack2.add(node);
+            stack2.push(node);
             if (node.left != null) {
-                stack2.push(node.left);
+                stack1.push(node.left);
             }
             if (node.right != null) {
-                stack2.push(node.right);
+                stack1.push(node.right);
             }
         }
         while (!stack2.isEmpty()) {

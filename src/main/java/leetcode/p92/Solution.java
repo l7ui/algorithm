@@ -2,6 +2,9 @@ package leetcode.p92;
 
 import leetcode.entity.ListNode;
 
+/**
+ * 反转 m - n 范围内的链表
+ */
 public class Solution {
     public ListNode reverseBetween(ListNode head, int m, int n) {
         if (head == null || head.next == null) {

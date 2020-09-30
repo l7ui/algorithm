@@ -4,6 +4,9 @@ import leetcode.entity.ListNode;
 
 import java.util.HashSet;
 
+/**
+ * 链表的环
+ */
 public class Solution {
     public boolean hasCycle(ListNode head) {
         if (head == null) {

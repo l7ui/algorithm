@@ -4,6 +4,9 @@ import leetcode.entity.TreeNode;
 
 import java.util.*;
 
+/**
+ * 从下层向上遍历二叉树
+ */
 public class Solution {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();

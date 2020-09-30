@@ -2,6 +2,9 @@ package leetcode.p148;
 
 import leetcode.entity.ListNode;
 
+/**
+ * 排序链表
+ */
 public class Solution {
     public ListNode sortList(ListNode head) {
         if (head == null || head.next == null) {

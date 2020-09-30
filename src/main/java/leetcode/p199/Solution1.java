@@ -6,7 +6,9 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-// https://leetcode-cn.com/problems/binary-tree-right-side-view/
+/**
+ * 二叉树的右视图
+ */
 public class Solution1 {
 
     public List<Integer> rightSideView(TreeNode root) {

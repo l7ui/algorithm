@@ -4,6 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
+/**
+ * 最长有效括号
+ */
 public class Solution {
     public boolean isValid(String s) {
         if (s == null || s.length() == 0) {

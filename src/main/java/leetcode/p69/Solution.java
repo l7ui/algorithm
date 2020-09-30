@@ -1,5 +1,8 @@
 package leetcode.p69;
 
+/**
+ * 平方根
+ */
 public class Solution {
     public int mySqrt(int x) {
         if (x == 0) {

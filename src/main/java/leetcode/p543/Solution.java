@@ -2,6 +2,9 @@ package leetcode.p543;
 
 import leetcode.entity.TreeNode;
 
+/**
+ * 二叉树的直径
+ */
 public class Solution {
     public int diameterOfBinaryTree(TreeNode root) {
         if (root == null) {

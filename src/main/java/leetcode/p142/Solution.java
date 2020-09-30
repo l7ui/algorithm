@@ -2,6 +2,9 @@ package leetcode.p142;
 
 import leetcode.entity.ListNode;
 
+/**
+ * 返回链表环的入口
+ */
 public class Solution {
     public ListNode detectCycle(ListNode head) {
         if (head == null) {

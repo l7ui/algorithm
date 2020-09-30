@@ -5,6 +5,9 @@ import leetcode.entity.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 二叉树的所有路径
+ */
 public class Solution {
     private List<String> res = new ArrayList<>();
 

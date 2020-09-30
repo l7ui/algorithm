@@ -2,6 +2,9 @@ package leetcode.p332;
 
 import java.util.*;
 
+/**
+ * 安排行程
+ */
 public class Solution {
     private Map<String, PriorityQueue<String>> map = new HashMap<>();
     private List<String> list = new ArrayList<>();

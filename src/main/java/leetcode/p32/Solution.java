@@ -1,6 +1,7 @@
 package leetcode.p32;
 
-import java.util.Stack;
+import java.util.ArrayDeque;
+import java.util.Deque;
 
 /**
  * 返回有效括号的最大长度
@@ -11,7 +12,7 @@ public class Solution {
             return 0;
         }
 
-        Stack<Integer> stack = new Stack<>();
+        Deque<Integer> stack = new ArrayDeque<>();
         stack.push(-1);
         int maxLength = 0;
         for (int i = 0; i < s.length(); i++) {

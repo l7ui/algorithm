@@ -3,6 +3,9 @@ package leetcode.p146;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+/**
+ * 构建 LRU 缓存
+ */
 public class LRUCache extends LinkedHashMap<Integer, Integer> {
     private int MAX_ENTRIES;
 

@@ -2,7 +2,9 @@ package leetcode.p101;
 
 import leetcode.entity.TreeNode;
 
-// https://leetcode-cn.com/problems/symmetric-tree/submissions/
+/**
+ * 判断二叉树是否对称
+ */
 public class Solution {
     public boolean isSymmetric(TreeNode root) {
         return check(root, root);

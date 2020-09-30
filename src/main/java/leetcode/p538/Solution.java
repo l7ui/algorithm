@@ -2,6 +2,9 @@ package leetcode.p538;
 
 import leetcode.entity.TreeNode;
 
+/**
+ * 二叉搜索树转换成累加树
+ */
 public class Solution {
     private int sum;
     public TreeNode convertBST(TreeNode root) {

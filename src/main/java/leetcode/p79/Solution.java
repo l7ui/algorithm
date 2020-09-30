@@ -1,5 +1,8 @@
 package leetcode.p79;
 
+/**
+ * 搜索单词
+ */
 public class Solution {
     public boolean exist(char[][] board, String word) {
         if (board == null || board.length == 0 || word == null || word.length() == 0) {

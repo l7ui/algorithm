@@ -2,6 +2,9 @@ package leetcode.p206;
 
 import leetcode.entity.ListNode;
 
+/**
+ * 反转链表
+ */
 public class Solution {
     public ListNode reverseList(ListNode head) {
         if (head == null || head.next == null) {

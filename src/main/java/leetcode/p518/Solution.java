@@ -1,6 +1,8 @@
 package leetcode.p518;
 
-// https://leetcode-cn.com/problems/coin-change-2/
+/**
+ * 找零钱
+ */
 public class Solution {
     public int change(int amount, int[] coins) {
         int k = coins.length + 1;

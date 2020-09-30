@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 字符串的最长的无重复字符字串
+ * 字符串的最长的无重复字符子串
  * <滑动窗口>
  */
 public class Solution {

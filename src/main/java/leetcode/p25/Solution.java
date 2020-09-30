@@ -2,6 +2,9 @@ package leetcode.p25;
 
 import leetcode.entity.ListNode;
 
+/**
+ * 每 K 个节点反转链表
+ */
 public class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
         if (head == null || k < 1) {

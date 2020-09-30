@@ -4,6 +4,9 @@ import leetcode.entity.TreeNode;
 
 import java.util.HashMap;
 
+/**
+ * 重构二叉树
+ */
 public class Solution {
     private HashMap<Integer, Integer> inorderIndexMap = new HashMap<>();
     public TreeNode buildTree(int[] preorder, int[] inorder) {

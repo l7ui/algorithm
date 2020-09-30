@@ -2,6 +2,9 @@ package leetcode.p437;
 
 import leetcode.entity.TreeNode;
 
+/**
+ * 二叉树路径和为 K 的路径数
+ */
 public class Solution {
     private int ans;
     public int pathSum(TreeNode root, int sum) {
