@@ -38,7 +38,7 @@ public void preOrder(TreeNode root) {
 ```
 非递归方式：
 
-[问题解答](../src/main/java/basic_class_05/tree/TreeRecurve.java)
+[问题解答](../src/main/java/lessions/tree/TreeRecurve.java)
 
 ## 打印后继节点
 
@@ -49,7 +49,7 @@ public void preOrder(TreeNode root) {
 - 若该节点存在右子树，则其后继节点为其**右子树最左边的节点**
 - 若该节点不存在右子树，则想上寻找父节点，直到该父节点是某个节点的左节点，则该父节点的父节点为后继节点
 
-[问题解答](../src/main/java/basic_class_05/tree/TreeRecurve.java)
+[问题解答](../src/main/java/lessions/tree/TreeRecurve.java)
 
 ## 判断一颗二叉树是否是平衡二叉树
 

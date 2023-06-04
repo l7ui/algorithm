@@ -14,7 +14,7 @@
 
 ![1596471479146](assets/1596471479146.png)
 
-[问题解答](../src/main/java/basic_class_01/maxGap/MaxGap.java)
+[问题解答](../src/main/java/lessions/basic_class_01/maxGap/MaxGap.java)
 
 ## 队列和栈
 
@@ -22,11 +22,11 @@
 
 队列：先进先出
 
-[问题解答](../src/main/java/basic_class_01/stack/StackByArray.java)
+[问题解答](../src/main/java/lessions/basic_class_01/stack/StackByArray.java)
 
 栈：先进后出
 
-[问题解答](../src/main/java/basic_class_01/queue/QueueByArray.java)
+[问题解答](../src/main/java/lessions/basic_class_01/queue/QueueByArray.java)
 
 ![1596476096236](assets/1596476096236.png)
 

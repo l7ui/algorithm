@@ -8,5 +8,5 @@
 
 ![小和](assets/小和.JPG)
 
-[问题解答](../src/main/java/basic_class_01/smallSum/Solution.java)
+[问题解答](../src/main/java/lessions/basic_class_01/smallSum/Solution.java)
 
